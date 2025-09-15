@@ -4,11 +4,11 @@
 ![localhost:3000](/public/images/localhost_3000.png?raw=true "Node & Express")
 
 
+# Node Express Hello World 
 
 A simple **Node.js + Express** web app containerized with **Docker** and deployed using **Docker Compose**.  
 This project is part of my **DevOps Intern Assignment**.
 
----
 
 ##  Prerequisites
 Make sure you have the following installed:
@@ -17,7 +17,7 @@ Make sure you have the following installed:
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)  
 - Docker Compose (comes with Docker Desktop, check with `docker compose version`)
 
----
+
 
 ## Run Locally (Without Docker)
 ```bash
@@ -34,7 +34,7 @@ npm start
 
  Open [http://localhost:3000](http://localhost:3000)
 
----
+
 
 ## Run with Docker
 
@@ -48,7 +48,7 @@ docker run -p 3000:3000 node-express-hello-world
 
  Open [http://localhost:3000](http://localhost:3000)
 
----
+
 
 ##  Run with Docker Compose
 
@@ -73,7 +73,7 @@ docker compose down
 * Deployed with Docker Compose.
 * Documented setup in this README.
 
----
+
 
 ##  Demo
 
@@ -88,7 +88,7 @@ Catch the action at http://localhost:3000
 
 Open browser  [http://localhost:3000](http://localhost:3000)
 
----
+
 
 ##  Author
 
